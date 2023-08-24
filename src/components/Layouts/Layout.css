@@ -1,0 +1,59 @@
+/* App.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .holy-grail {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  header,
+  footer {
+    background-color: #333;
+    color: #fff;
+    
+  }
+
+  header{
+    padding: 10px;
+    
+  }
+
+  footer{
+    padding: 0px;
+    text-align: center;
+  }
+  
+  .holy-grail-body {
+    display: flex;
+    flex: 1;
+  }
+  
+  .holy-grail-content {
+    flex: 1;
+    background-color: rgb(246, 240, 240);
+    padding: 20px;
+  }
+  
+  .holy-grail-sidebar-left,
+  .holy-grail-sidebar-right {
+    width: 250px;
+    background-color: #ddd;
+    padding: 20px;
+  }
+  
+  .holy-grail-sidebar-left {
+    order: -1;
+  }
+  
+  .holy-grail-sidebar-right {
+    order: 1;
+  }
+
+  
+  
