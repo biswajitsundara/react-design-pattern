@@ -1,7 +1,7 @@
-import LayoutApp from "./components/Layouts/LayoutApp";
+import ListApp from "./components/Lists/ListApp";
 
 function App() {
-  return <LayoutApp />;
+  return <ListApp />;
 }
 
 export default App;
