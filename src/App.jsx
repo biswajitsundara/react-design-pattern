@@ -1,7 +1,7 @@
-import ListApp from "./components/Lists/ListApp";
+import ModalApp from "./components/Modal/ModalApp";
 
 function App() {
-  return <ListApp />;
+  return <ModalApp />;
 }
 
 export default App;
