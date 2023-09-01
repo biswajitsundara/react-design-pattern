@@ -1,7 +1,7 @@
-import ModalApp from "./components/Modal/ModalApp";
+import ContainerApp from "./components/Container/ContainerApp";
 
 function App() {
-  return <ModalApp />;
+  return <ContainerApp />;
 }
 
 export default App;
