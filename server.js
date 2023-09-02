@@ -1,16 +1,16 @@
 import express from "express";
-import cors from 'cors';
-
-
+import cors from "cors";
 
 const app = express();
 
+const baseUrl = 'http://127.0.0.1:5173';
+
 const corsOptions = {
-  origin: 'http://127.0.0.1:8080/',
+  origin: baseUrl,
 };
 
-app.use(cors(corsOptions));
 
+app.use(cors(corsOptions));
 app.use(express.json());
 
 let currentUser = {
@@ -22,72 +22,84 @@ let currentUser = {
 
 let users = [
   {
+    id: "1234",
     name: "John Smith",
     age: 28,
     hair_color: "Brown",
     hobbies: ["Reading", "Hiking", "Cooking"],
   },
   {
+    id: "2345",
     name: "Sarah Johnson",
     age: 35,
     hair_color: "Blonde",
     hobbies: ["Painting", "Swimming", "Gardening"],
   },
   {
+    id: "345",
     name: "Michael Brown",
     age: 22,
     hair_color: "Black",
     hobbies: ["Video Games", "Basketball", "Traveling"],
   },
   {
+    id: "678",
     name: "Emily Davis",
     age: 30,
     hair_color: "Red",
     hobbies: ["Photography", "Yoga", "Dancing"],
   },
   {
+    id: "9012",
     name: "James Wilson",
     age: 40,
     hair_color: "Gray",
     hobbies: ["Fishing", "Golf", "Cooking"],
   },
   {
+    id: "1223",
     name: "Olivia Lee",
     age: 25,
     hair_color: "Brown",
     hobbies: ["Running", "Reading", "Painting"],
   },
   {
+    id: "2234",
     name: "Daniel Anderson",
     age: 32,
     hair_color: "Blonde",
     hobbies: ["Skiing", "Photography", "Hiking"],
   },
   {
+    id: "44567",
     name: "Ava Taylor",
     age: 27,
     hair_color: "Black",
     hobbies: ["Cooking", "Traveling", "Swimming"],
   },
   {
+    id: "67892",
     name: "William Martinez",
     age: 29,
     hair_color: "Brown",
     hobbies: ["Gaming", "Reading", "Basketball"],
   },
   {
+    id: "45356",
     name: "Sophia Rodriguez",
     age: 24,
     hair_color: "Red",
     hobbies: ["Dancing", "Yoga", "Photography"],
   },
   {
+    id: "45355",
     name: "Liam Harris",
     age: 37,
     hair_color: "Gray",
     hobbies: ["Golf", "Fishing", "Cooking"],
   },
   {
+    id: "42256",
     name: "Isabella King",
     age: 26,
     hair_color: "Blonde",
