@@ -1,7 +1,7 @@
-import ContainerApp from "./components/Container/ContainerApp";
+import ResourceApp from "./components/Container/More Simplified/ResourceApp";
 
 function App() {
-  return <ContainerApp />;
+  return <ResourceApp />;
 }
 
 export default App;
