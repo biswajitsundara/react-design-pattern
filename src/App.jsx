@@ -1,7 +1,7 @@
-import ResourceApp from "./components/Container/More Simplified/ResourceApp";
+import DataApp from "./components/Container/MostSimplified/DataApp";
 
 function App() {
-  return <ResourceApp />;
+  return <DataApp />;
 }
 
 export default App;
