@@ -1,7 +1,7 @@
-import DataApp from "./components/Container/MostSimplified/DataApp";
+import ControlApp from "./components/ControlUncontrol/ControlApp";
 
 function App() {
-  return <DataApp />;
+  return <ControlApp />;
 }
 
 export default App;
