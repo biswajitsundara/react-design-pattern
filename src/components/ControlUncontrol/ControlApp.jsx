@@ -1,7 +1,7 @@
-import UnControlledForm from "./UnControlledForm";
+import ControlledForm from "./ControlledForm";
 
 const ControlApp = () => {
-  return <UnControlledForm />;
+  return <ControlledForm />;
 };
 
 export default ControlApp;
