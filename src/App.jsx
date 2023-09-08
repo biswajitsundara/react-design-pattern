@@ -1,7 +1,7 @@
-import ControlApp from "./components/ControlUncontrol/ControlApp";
+import ModalAppCtrl from "./components/ControlUncontrol/ModalCtrl/ModalAppCtrl";
 
 function App() {
-  return <ControlApp />;
+  return <ModalAppCtrl />;
 }
 
 export default App;
