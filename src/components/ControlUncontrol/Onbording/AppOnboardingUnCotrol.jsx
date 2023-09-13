@@ -23,6 +23,7 @@ const StepThree = ({ goToNext }) => {
 };
 
 const AppOnboarding = () => {
+  
   return (
     <UncontrolledOnboradingFlow
       onFinish={(data) => {

@@ -1,8 +1,8 @@
-import AppOnboarding from "./components/ControlUncontrol/Onbording/AppOnboarding";
+import AppHOC from "./components/HigherOrder/AppHOC";
 
 function App() {
 
-  return <AppOnboarding />;
+  return <AppHOC />;
 }
 
 export default App;
